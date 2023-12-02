@@ -6,6 +6,10 @@ public class Board {
     private int size;
     private List<List<Cell>> cells;
 
+    public Board(int boardSize) {
+        this.size = boardSize;
+    }
+
     public int getSize() {
         return size;
     }
